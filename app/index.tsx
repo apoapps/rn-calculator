@@ -35,7 +35,7 @@ const CalculatorApp = () => {
         <CalculatorButton label="1" onPress={() => console.log("1")} blackText={false} />
         <CalculatorButton label="2" onPress={() => console.log("2")} blackText={false} />
         <CalculatorButton label="3" onPress={() => console.log("3")} blackText={false} />
-        <CalculatorButton label="+" color={Colors.orange} onPress={() => console.log("-")} blackText={false} />
+        <CalculatorButton label="+" color={Colors.orange} onPress={() => console.log("+")} blackText={false} />
       </View>
       <View style={globalStyles.row}>
         <CalculatorButton label="0" onPress={() => console.log("0")} blackText={false} doubleSize />
