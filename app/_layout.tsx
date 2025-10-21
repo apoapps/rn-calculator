@@ -6,7 +6,6 @@ import { Slot } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 
 import * as NavigationBar from "expo-navigation-bar";
-import * as Haptics from "expo-haptics";
 
 const isAndroid = Platform.OS === "android";
 
